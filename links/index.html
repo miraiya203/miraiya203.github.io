@@ -20,7 +20,6 @@
 </head>
 <body>
 <style>
-/* 縦1列のリンク集：上に名前と一言、下に押すと沈むボタン3つだけ。名刺と同じ黒と明かり色（11/28 本人「もっとシンプルに」で写真・猫耳・札・名刺のリンクを外した） */
 :root{
   --yami:#0a0b0e; --pnl:#13161b; --pnl-2:#1b1f26; --fuchi:#272c35; --kage:#050608;
   --shiro:#e8eaed; --nibi:#9aa0aa; --akari:#f0b46a;
@@ -42,7 +41,7 @@ body{
   padding-block:40px;min-height:100vh;min-height:100svh;
   display:flex;flex-direction:column;justify-content:center;gap:32px;
 }
-@media (max-height:460px){.wrap{padding-block:16px}} /* スマホを横にした時に少しはみ出さないように */
+@media (max-height:460px){.wrap{padding-block:16px}} 
 .me{display:flex;flex-direction:column;align-items:center;gap:4px;text-align:center}
 .na{margin:0;font-family:var(--f-na);font-weight:400;font-size:28px;line-height:1.3;letter-spacing:.04em}
 .hito{margin:0;color:var(--nibi);font-size:14px;letter-spacing:.04em}
